@@ -1,0 +1,32 @@
+Source: lingmo-workspace-base
+Section: lingmo
+Priority: optional
+Maintainer: Elysia <c.elysia@foxmail.com>
+Uploaders: Elysia <c.elysia@foxmail.com>
+Standards-Version: 4.5.1
+Build-Depends: debhelper (>= 11)
+
+Package: lingmo-workspace-base
+Architecture: any
+Depends: ${misc:Depends},
+        appmotor,
+        liblingmo,
+        lingmo-core,
+        lingmo-cursor-themes,
+        lingmo-daemon,
+        lingmo-dock,
+        lingmo-filemanager,
+        lingmo-gtk-themes,
+        lingmo-kwin-plugins,
+        lingmo-launcher,
+        lingmo-screenlocker,
+        lingmo-sddm-theme,
+        lingmo-settings,
+        lingmo-statusbar,
+        lingmo-systemicons,
+        lingmo-terminal,
+        lingmo-texteditor,
+        lingmo-wallpapers,
+        lingmoui
+
+Description: Informational list of lingmo-workspace-base packages.
