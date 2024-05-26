@@ -35,6 +35,6 @@ Depends: appmotor,
          lingmo-terminal,
          lingmo-texteditor,
          lingmo-wallpapers,
-         lingmo-ocr
+         lingmo-ocr,
          lingmoui
 Description: Informational list of lingmo-workspace-base packages.
