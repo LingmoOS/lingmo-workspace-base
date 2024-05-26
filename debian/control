@@ -11,14 +11,21 @@ Architecture: any
 Section: lingmo
 Priority: optional
 Depends: appmotor,
+         base-files,
+         lingmo,
+         lingmo-archive-keyring,
+         lingmo-base-common,
          liblingmo,
          lingmo-core,
          lingmo-cursor-themes,
+         lingmo-calculator,
+         lingmo-grub-config,
          lingmo-daemon,
          lingmo-dock,
          lingmo-filemanager,
          lingmo-gtk-themes,
          lingmo-kwin-plugins,
+         lingmo-qt-plugins,
          lingmo-launcher,
          lingmo-screenlocker,
          lingmo-sddm-theme,
@@ -28,5 +35,6 @@ Depends: appmotor,
          lingmo-terminal,
          lingmo-texteditor,
          lingmo-wallpapers,
+         lingmo-ocr
          lingmoui
 Description: Informational list of lingmo-workspace-base packages.
