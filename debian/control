@@ -12,9 +12,7 @@ Section: lingmo
 Priority: optional
 Depends: appmotor,
          base-files,
-         lingmo,
          lingmo-archive-keyring,
-         lingmo-base-common,
          liblingmo,
          lingmo-core,
          lingmo-cursor-themes,
